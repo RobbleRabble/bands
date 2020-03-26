@@ -9,4 +9,44 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  text-align: center;
+  background-color: gray;
+}
+
+/* .nav {
+  list-style: none;
+} */
+
+.container {
+  width: 100%;
+}
+
+img.band-photo {
+  height: 50rem;
+  justify-content: center;
+  width: auto;
+}
+
+.albums {
+  display: flex;
+  justify-content: space-between;
+}
+
+.albums ul {
+  list-style: none;
+  display: flex
+}
+
+.albums li {
+  background-color: #555954;
+  color: #000000;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  margin: 1rem;
+  box-shadow: 0.5rem 0.5rem 0.25rem #1a0a08;
+}
+
+.albums img {
+  width: 25rem;
+  height: auto;
 }
